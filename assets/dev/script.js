@@ -3,6 +3,7 @@
  */
 $(function () {
 
+// MAILING
 
     $('#contact-form').on('submit', function (e) {
 
@@ -21,9 +22,7 @@ $(function () {
                 alert('EMAIL NOT SENT ');
             }
         });
-
     });
-
 
 
 
