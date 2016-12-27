@@ -28,8 +28,8 @@ $(function () {
 // PAGE COUNTER
 
     // CRON CLEARING LOCAL STORAGE
-    var DailyVisits = 0,
-        Hour = new Date().getHours();
+    /*var DailyVisits;
+    var Hour = new Date().getHours();
     if (Hour == 0) {
         DailyVisits = 0;
     }
@@ -37,13 +37,14 @@ $(function () {
     // COUNTING
     if (localStorage.pagecount) {
         localStorage.pagecount = Number(localStorage.pagecount) + 1;
-        DailyVisits = DailyVisits +1 ;
+        DailyVisits = DailyVisits + 1 ;
     }
     else {
         localStorage.pagecount = 1;
+        DailyVisits = 1;
     }
     console.log("Total number of visits until now is: " + localStorage.pagecount + " time(s).");
-    console.log("Number for Today is: " + DailyVisits + " time(s).");
+    console.log("Number of visits for Today is: " + DailyVisits + " time(s).");*/
 
 
 });
